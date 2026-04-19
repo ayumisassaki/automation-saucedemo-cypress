@@ -1,0 +1,16 @@
+{
+  "name": "saucedemo-cypress",
+  "version": "1.0.0",
+  "description": "Automação de testes E2E com Cypress para o site SauceDemo",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:login": "cypress run --spec cypress/e2e/login.cy.js",
+    "cy:run:purchase": "cypress run --spec cypress/e2e/purchase.cy.js"
+  },
+  "devDependencies": {
+    "cypress": "^15.14.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
